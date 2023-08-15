@@ -1,3 +1,17 @@
+# hello world
+
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
 data "aws_ami" "ubuntu" {
   most_recent = true
 
@@ -14,6 +28,16 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
+
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
+# how are you?
 resource "aws_instance" "web" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
